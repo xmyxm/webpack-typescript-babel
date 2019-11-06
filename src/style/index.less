@@ -1,0 +1,103 @@
+@import "./reset.less";
+
+body {
+    background: #fff;
+}
+
+.test-box {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .header {
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .back {
+        background: url(//s1.51ping.com/app/node-content-web/client/media/author-back.c4e9f422.png)
+            left center no-repeat;
+        background-size: 24px 24px;
+    }
+
+    .back,
+    .copy {
+        height: 34px;
+        width: 50px;
+    }
+
+    .title {
+        font-size: 14px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .log-box {
+        margin-top: 10px;
+        height: 200px;
+        display: flex;
+    }
+    .content-text {
+        flex: 1;
+        background: #f3f0f0;
+        padding: 5px;
+        overflow-y: auto;
+        font-size: 10px;
+    }
+
+    .del-box {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 34px;
+        background: #f63;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .btn-item {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 34px;
+        border: 1px solid #e1e1e1;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 30px;
+    }
+
+    .video-icon {
+        background: url("https://img.meituan.net/ugcpic/02b6b0ecab49238cba9251775964e76226121.jpg%40230w_230h_1e_1c_1l_100q%7Cwatermark%3D0")
+            center no-repeat;
+    }
+
+    .shop-icon {
+        background: url("https://p0.meituan.net/apiback/587faa2448c631f0d70a735ae264015561408.jpg%40130w_130h_1e_1c_1l_90q%7Cwatermark%3D0")
+            center no-repeat;
+    }
+
+    .user-icon {
+        background: url("https://img.meituan.net/userheadpicbackend/9dde8c15d6c1c0a19f53fb8b0c7877cd391073.jpg%40120w_120h_1e_1c_1l%7Cwatermark%3D0")
+            center no-repeat;
+    }
+
+    .user-icon,
+    .shop-icon,
+    .video-icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-size: 100% 100%;
+    }
+
+    .btn-text {
+        flex: 1;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
